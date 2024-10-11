@@ -1,0 +1,130 @@
+ .attributes-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  flex: auto;
+}
+ .attributes-product-header {
+  flex: 0 0 auto;
+  width: 100%;
+  height: var(--dl-size-size-medium);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+ .attributes-label {
+  left: 0px;
+  color: rgb(75, 73, 73);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: inherit;
+  font-weight: 400;
+  padding-left: var(--dl-space-space-twounits);
+  text-transform: uppercase;
+}
+ .attributes-container1 {
+  width: 100%;
+  height: 62px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+}
+ .attributes-add-product-button {
+  color: rgb(255, 255, 255);
+  right: 0px;
+  bottom: bottom;
+  position: absolute;
+  align-self: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: 0px;
+  background-color: #008CBA;
+  border-color:#008CBA;
+}
+ .attributes-product-table-container {
+  flex: auto;
+  width: 100%;
+ /* border: 2px dashed rgba(243, 23, 23, 0.4); */
+  height: 100%;
+  display: table;
+  position: relative;
+  padding-left: var(--dl-space-space-unit);
+  align-items:flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ .attributes-container2 {
+  flex: auto;
+  width: 617.67;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ .attributes-text2 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+ .attributes-text3 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+ .attributes-container3 {
+  flex: auto;
+  width: 617.67;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ .attributes-text5 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+ .attributes-text6 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+ .attributes-text7 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+ .attributes-container4 {
+  flex: 0 0 auto;
+  width: 617.67;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ .attributes-text8 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+ .attributes-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.add-value-button{
+  color: #008CBA;
+  position: relative;
+  background-color: #008CBA;
+}

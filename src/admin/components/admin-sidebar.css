@@ -1,0 +1,96 @@
+.admin-sidebar {
+  flex: auto;
+  width: 300px;
+  height:  100vh;
+  padding: var(--dl-space-space-twounits);
+  position: sticky;
+  min-width: 300px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: fill;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+  position: fixed;
+  
+}
+.sidebar-nav {
+  height:  100vh;
+  display: flex;
+  flex:auto;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sidebar-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.sidebar-dashboard-text {
+  margin-bottom: var(--dl-space-space-twounits);
+  cursor: pointer;
+}
+.sidebar-product-text {
+  margin-bottom: var(--dl-space-space-twounits);
+  cursor: pointer;
+}
+.sidebar-categories-text {
+  margin-bottom: var(--dl-space-space-twounits);
+  cursor: pointer;
+}
+.sidebar-attributes-text {
+  margin-bottom: var(--dl-space-space-twounits);
+  cursor: pointer;
+}
+.sidebar-orders-text {
+  margin-bottom: var(--dl-space-space-twounits);
+  cursor: pointer;
+}
+.sidebar-profile {
+  width: 100%;
+  height: var(--dl-size-size-medium);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sidebar-image {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.sidebar-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+  height:  100vh;
+}
+.sidebar-text {
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.sidebar-text1 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+}
+.sidebar-root-class-name {
+  width: 100%;
+  height:  100vh;
+  min-width: 300px;
+}
+@media(max-width: 991px) {
+  .sidebar-profile {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .sidebar-image {
+    margin-left: 0px;
+  }
+}

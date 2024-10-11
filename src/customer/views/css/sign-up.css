@@ -1,0 +1,190 @@
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-inabelpalette-goat);
+}
+.sign-up-container01 {
+  width: 1076px;
+  height: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: 45px;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.sign-up-text {
+  color: var(--dl-color-inabelpalette-main);
+  align-self: flex-start;
+  padding-top: 0rem;
+  padding-bottom: 1.5rem;
+}
+.sign-up-form {
+  width: 963px;
+  height: 100%;
+}
+.sign-up-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  justify-content: flex-start;
+}
+.sign-up-text01 {
+  align-self: center;
+  margin-right: 4.5rem;
+}
+.sign-up-text03 {
+  color: #ea1111;
+}
+.sign-up-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-right:2rem;
+}
+.sign-up-text04 {
+  font-size: 13px;
+  align-self: flex-start;
+  margin-top: .5rem;
+  margin-left: 1rem;
+}
+.sign-up-textinput {
+  margin-left: .80rem;
+}
+
+.sign-up-container04 {
+  flex: 0 0 auto;
+  width: 290px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-text05 {
+  font-size: 13px;
+  align-self: flex-start;
+  margin-top: .5rem;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+.sign-up-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up-text08 {
+  align-self: center;
+  margin-right: 5.3rem;
+}
+.sign-up-text10 {
+  color: #ea1111;
+}
+.sign-up-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up-text11 {
+  align-self: center;
+  margin-right: 7.5rem;
+}
+.sign-up-text13 {
+  color: #ea1111;
+}
+.sign-up-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up-text14 {
+  align-self: center;
+  margin-right: 3rem;
+}
+.sign-up-text16 {
+  color: #ea1111;
+}
+.sign-up-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up-text17 {
+  align-self: center;
+  margin-right: 5.5rem;
+}
+.sign-up-text19 {
+  color: #ea1111;
+}
+.sign-up-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-up-text20 {
+  align-self: center;
+  margin-right: 1rem;
+}
+.sign-up-text22 {
+  color: #ea1111;
+}
+.sign-up-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.sign-up-navlink {
+  color: var(--dl-color-inabelpalette-lightg);
+  cursor: pointer;
+  transition: 0.3s;
+  border-color: var(--dl-color-inabelpalette-lightg);
+  text-decoration: none;
+}
+
+.sign-up-button {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  align-self: flex-end;
+  margin-left: 1rem;
+  border-color: var(--dl-color-primary-r3);
+  border-width: 0px;
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  background-color: var(--dl-color-inabelpalette-main);
+}

@@ -1,0 +1,10 @@
+.action-delete-button-container {
+  display: flex;
+  position: relative;
+}
+.action-delete-button-delete-product-button {
+  color: white;
+  position: relative;
+  border-color: #E14747;
+  background-color: #E14747;
+}

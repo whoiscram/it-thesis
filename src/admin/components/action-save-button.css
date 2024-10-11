@@ -1,0 +1,48 @@
+.action-save-button-container {
+  display: flex;
+  position: relative;
+}
+.action-save-button-button {
+  color: var(--dl-color-gray-white);
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-small);
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  text-align: center;
+  padding-top: 13px;
+  border-color: var(--dl-color-primary-100);
+  background-color: #2410c1;
+}
+.action-save-button-root-class-name {
+  left: 0px;
+  width: var(--dl-size-size-large);
+  bottom: 36px;
+  position: static;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-halfunit);
+}
+.action-save-button-root-class-name1 {
+  left: 0px;
+  width: var(--dl-size-size-large);
+  bottom: 36px;
+  position: static;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-halfunit);
+}
+.action-save-button-root-class-name2 {
+  left: 0px;
+  width: var(--dl-size-size-large);
+  bottom: 36px;
+  position: static;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-halfunit);
+}
+@media(max-width: 1200px) {
+  .action-save-button-button {
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #2410c1;
+  }
+}

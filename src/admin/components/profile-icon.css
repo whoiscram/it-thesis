@@ -1,0 +1,58 @@
+.profile-icon-akariconsperson {
+  width: 24px;
+  height: 25px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 0px 0px 0px 0px;
+}
+.profile-icon-group {
+  top: 2.0833332538604736px;
+  left: 3.265564203262329px;
+  width: 17.4688720703125px;
+  height: 20.83333396911621px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.profile-icon-vector {
+  top: 7.947286206899662e-8px;
+  left: 3.734435558319092px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.profile-icon-vector1 {
+  top: 12.5px;
+  left: -6.953874986947994e-8px;
+  width: 17px;
+  height: 8px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.profile-icon-root-class-name {
+  top: 19px;
+  left: 1321px;
+  position: absolute;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+

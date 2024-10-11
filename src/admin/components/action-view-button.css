@@ -1,0 +1,10 @@
+.action-view-button-container {
+  display: flex;
+  position: relative;
+}
+.action-view-button-view-product-button {
+  color: white;
+  position: relative;
+  border-color: var(--dl-color-primary-500);
+  background-color: var(--dl-color-primary-500);
+}

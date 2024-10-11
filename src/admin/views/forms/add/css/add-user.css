@@ -1,0 +1,98 @@
+.add-user-container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-700);
+  border-width: 1px;
+  flex-direction: column;
+  display: flex;
+  background-color: white;
+  background: #00000050;
+  height: auto;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 999;
+}
+.add-user-sub-container {
+  flex: 0 0 auto;
+  width: 660px;
+  display: flex;
+  align-items: flex-start;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  height: auto;
+  max-height: 100vh;
+  border-radius: 4px;
+  overflow:inherit;
+}
+.add-user-header {
+  font-size: 20px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-twounits);
+}
+.add-user-form {
+  width: 573px;
+  flex:auto;
+  position: relative;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.user-label{
+  flex: auto;
+  width: 100%;
+}
+
+.label{
+  flex:content;
+  width: 100%;
+}
+
+.label label:before{
+  content:"*";
+  color: red;
+}
+.input-field{
+  width: 100%;
+  margin-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-700);
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+}
+.cancel-button {
+  color: var(--dl-color-gray-700);
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-small);
+  text-align: center;
+  margin-left: 145px;
+  padding-top: 13px;
+  border-color: var(--dl-color-gray-900);
+  background-color: var(--dl-color-gray-white);
+}
+.save-button {
+  color: var(--dl-color-gray-white);
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-small);
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  padding-top: 13px;
+  border-color: #008CBA;
+  padding-left: 3px;
+  background-color: #008CBA;
+}
+.admin-user-add-update-text13 {
+  padding-left: var(--dl-space-space-oneandhalfunits);
+}
+

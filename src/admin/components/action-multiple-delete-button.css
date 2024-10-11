@@ -1,0 +1,51 @@
+.action-multiple-delete-button-container {
+  display: flex;
+  position: relative;
+}
+.action-multiple-delete-button-button {
+  color: var(--dl-color-gray-black);
+  width: 31px;
+  height: 36px;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: 4px;
+  padding-top: 2px;
+  border-color: #E14747;
+  padding-left: 2;
+  padding-right: 2;
+  flex-direction: row;
+  padding-bottom: 2;
+  background-size: cover;
+  background-color: #E14747;
+}
+.action-multiple-delete-button-delete-icon {
+  top: 19;
+  fill: var(--dl-color-gray-white);
+  left: 37;
+  width: 24px;
+  height: 30px;
+  border-color: var(--dl-color-gray-white);
+}
+@media(max-width: 1600px) {
+  .action-multiple-delete-button-button {
+    color: var(--dl-color-gray-black);
+    height: 36px;
+    display: flex;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    margin-top: 4px;
+    padding-top: 0px;
+    border-color: #E14747;
+    flex-direction: row;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-color: #E14747;
+  }
+}
+@media(max-width: 1200px) {
+  .action-multiple-delete-button-button {
+    margin-top: 0px;
+  }
+  .action-multiple-delete-button-delete-icon {
+    align-self: center;
+  }
+}

@@ -1,0 +1,13 @@
+.action-edit-button-container {
+  display: flex;
+  position: relative;
+}
+.action-edit-button-edit-button {
+  color: var(--dl-color-gray-white);
+  position: relative;
+  border-color: #EAAA00;
+  background-color: #EAAA00;
+}
+.action-edit-button-root-class-name {
+  margin-right: var(--dl-space-space-halfunit);
+}

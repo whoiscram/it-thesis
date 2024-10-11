@@ -1,0 +1,108 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  color: #e8e8e8;
+  font-size: 14px;
+  text-decoration: none;
+}
+.navigation-links-navlink1 {
+  color: #e8e8e8;
+  font-size: 14px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink2 {
+  color: #e8e8e8;
+  font-size: 14px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink3 {
+  color: #e8e8e8;
+  font-size: 14px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink4 {
+  color: #e8e8e8;
+  font-size: 14px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink:hover {
+  color: var(--dl-color-inabelpalette-main);
+}
+.navigation-links-navlink1:hover {
+  color: var(--dl-color-inabelpalette-main);
+}
+.navigation-links-navlink2:hover {
+  color: var(--dl-color-inabelpalette-main);
+}
+.navigation-links-navlink3:hover {
+  color: var(--dl-color-inabelpalette-main);
+}
+.navigation-links-navlink4:hover {
+  color: var(--dl-color-inabelpalette-main);
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1600px) {
+  .navigation-links-navlink {
+    color: var(--dl-color-inabelpalette-white);
+  }
+  .navigation-links-navlink1 {
+    color: var(--dl-color-inabelpalette-white);
+  }
+  .navigation-links-navlink2 {
+    color: var(--dl-color-inabelpalette-white);
+  }
+  .navigation-links-navlink3 {
+    color: var(--dl-color-inabelpalette-white);
+  }
+  .navigation-links-navlink4 {
+    color: var(--dl-color-inabelpalette-white);
+  }
+}
+@media(max-width: 1200px) {
+  .navigation-links-navlink2 {
+    z-index: 100;
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+}
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
